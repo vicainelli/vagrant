@@ -15,16 +15,12 @@ Clone this repo in your workspace
 git clone https://github.com/vicainelli/vagrant.git DIR_NAME
 ```
 
-
-
 ```
 cd DIR_NAME
 ```
 
-
-
 ```
-ln -s ~/PATH/TO/YOUR/PROJECT
+ln -s ~/PATH/TO/YOUR/PROJECT files
 ```
 
 #### Start vagrant
