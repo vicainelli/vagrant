@@ -78,5 +78,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, :path => ".vagrant-provision/php.sh"
 
   # MySQL
-  #config.vm.provision :shell, :path => ".vagrant-provision/mysql.sh"
+  config.vm.provision :shell, :path => ".vagrant-provision/mysql.sh"
 end

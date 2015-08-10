@@ -8,7 +8,7 @@ sudo apt-get update
 echo "==================================================================== Installing PHP"
 sudo apt-get install -y php5 libapache2-mod-php5 php5-mcrypt
 
-echo "================================================================= Restartinh Apache"
+echo "================================================================= Restarting Apache"
 sudo service apache2 restart
 
 echo "==================================================================================="
