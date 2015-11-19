@@ -27,7 +27,7 @@ Vagrant.configure(2) do |config|
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
   config.vm.network "forwarded_port", guest: 3306, host: 3306
-  config.vm.network "private_network", ip: "55.55.55.5"
+  config.vm.network "private_network", ip: "55.55.55.9"
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
@@ -79,4 +79,7 @@ Vagrant.configure(2) do |config|
 
   # MySQL
   config.vm.provision :shell, :path => ".vagrant-provision/mysql.sh"
+
+  # Oh My Zsh
+  config.vm.provision :shell, :path => ".vagrant-provision/zsh.sh"
 end
